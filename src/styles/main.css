@@ -1,0 +1,268 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #0A1628;
+  color: #FFFFFF;
+  overflow-x: hidden;
+  line-height: 1.6;
+  position: relative;
+}
+
+/* Animated gradient background */
+.gradient-bg {
+  background: linear-gradient(135deg, #0A1628 0%, #0D1B2A 50%, #0A1628 100%);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+}
+
+@keyframes gradientShift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* Floating particles */
+.particle {
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  opacity: 0.6;
+  animation: float 8s ease-in-out infinite;
+  z-index: 1;
+}
+
+@keyframes float {
+  0%, 100% { transform: translate(0, 0); }
+  25% { transform: translate(20px, -20px); }
+  50% { transform: translate(-20px, 20px); }
+  75% { transform: translate(20px, 20px); }
+}
+
+/* Glowing elements */
+.glow-amber {
+  box-shadow: 0 0 20px rgba(245, 158, 11, 0.6);
+}
+
+.glow-orange {
+  box-shadow: 0 0 20px rgba(251, 146, 60, 0.6);
+}
+
+.glow-gold {
+  box-shadow: 0 0 20px rgba(252, 211, 77, 0.5);
+}
+
+/* 3D Card effect */
+.card-3d {
+  background: rgba(13, 27, 42, 0.6);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.card-3d::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(245, 158, 11, 0.15) 0%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.card-3d:hover::before {
+  opacity: 1;
+}
+
+.card-3d:hover {
+  transform: translateY(-10px) scale(1.02);
+  border-color: rgba(245, 158, 11, 0.6);
+  box-shadow: 0 20px 60px rgba(245, 158, 11, 0.3);
+}
+
+/* Holographic text effect */
+.holographic-text {
+  background: linear-gradient(90deg, #F59E0B 0%, #FB923C 50%, #FCD34D 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% auto;
+  animation: holographicShift 3s linear infinite;
+}
+
+@keyframes holographicShift {
+  0% { background-position: 0% center; }
+  100% { background-position: 200% center; }
+}
+
+/* Fade in animations */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.delay-100 { animation-delay: 0.1s; }
+.delay-200 { animation-delay: 0.2s; }
+.delay-300 { animation-delay: 0.3s; }
+.delay-400 { animation-delay: 0.4s; }
+.delay-500 { animation-delay: 0.5s; }
+.delay-600 { animation-delay: 0.6s; }
+
+/* Phone frame with holographic effect */
+.phone-frame-holographic {
+  position: relative;
+  border-radius: 40px;
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.15) 0%, rgba(251, 146, 60, 0.15) 100%);
+  border: 2px solid rgba(245, 158, 11, 0.4);
+  padding: 8px;
+  box-shadow: 0 0 40px rgba(245, 158, 11, 0.4);
+  animation: phoneFloatHolo 6s ease-in-out infinite;
+}
+
+@keyframes phoneFloatHolo {
+  0%, 100% {
+    transform: translateY(0) rotateY(0deg);
+  }
+  50% {
+    transform: translateY(-20px) rotateY(5deg);
+  }
+}
+
+/* Button styles */
+.btn-holographic {
+  background: linear-gradient(135deg, #F59E0B 0%, #FB923C 100%);
+  color: white;
+  padding: 14px 32px;
+  border-radius: 50px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-holographic::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  transform: rotate(45deg);
+  animation: shimmer 3s infinite;
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+  100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+}
+
+.btn-holographic:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(245, 158, 11, 0.5);
+}
+
+.btn-outline {
+  background: transparent;
+  color: #F59E0B;
+  padding: 14px 32px;
+  border-radius: 50px;
+  font-weight: 600;
+  border: 2px solid #F59E0B;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-outline:hover {
+  background: rgba(245, 158, 11, 0.15);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(245, 158, 11, 0.3);
+}
+
+/* Floating orbs */
+.floating-orb {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(245, 158, 11, 0.8) 0%, rgba(251, 146, 60, 0.4) 70%, transparent 100%);
+  filter: blur(30px);
+  animation: orbFloat 8s ease-in-out infinite;
+}
+
+@keyframes orbFloat {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(30px, -30px) scale(1.1); }
+  66% { transform: translate(-30px, 30px) scale(0.9); }
+}
+
+/* Grid background */
+.grid-bg {
+  background-image: 
+    linear-gradient(rgba(245, 158, 11, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(245, 158, 11, 0.1) 1px, transparent 1px);
+  background-size: 50px 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A1628;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #F59E0B 0%, #FB923C 100%);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #FB923C 0%, #FCD34D 100%);
+}
