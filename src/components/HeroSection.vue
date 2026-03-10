@@ -13,7 +13,7 @@
         <h1 class="text-5xl md:text-7xl font-bold font-space mb-6 leading-tight">
           Enter the World of<br>
           <span class="holographic-text">Infinite Innovation</span><br>
-          with ORYZ
+          with ORYZA
         </h1>
         <p class="text-gray-300 text-lg mb-8 max-w-xl">
           Transforming Perceptions, Redefining Digital Excellence
