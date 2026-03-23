@@ -51,26 +51,26 @@
         <!-- Right Content -->
         <div class="fade-in-up delay-300">
           <h2 class="text-5xl font-bold font-space mb-6">
-            Discover <span class="holographic-text">Our Story</span><br>
-            and Team
+            Découvrez <span class="holographic-text">Notre Histoire</span><br>
+            et Équipe
           </h2>
           
           <div class="space-y-6 text-gray-300 leading-relaxed">
             <p>
-              Discover the forefront of digital innovation with ORYZA, a research-driven software development, system integration, and consultancy powerhouse in the realm of digital multimedia.
+              Découvrez l'avant-garde de l'innovation numérique avec ORYZA, une puissance de développement logiciel, d'intégration système et de conseil axée sur la recherche dans le domaine du multimédia numérique.
             </p>
             
             <p>
-              Our story begins with a vision to redefine how businesses interact with technology.
+              Notre histoire commence par une vision de redéfinir la façon dont les entreprises interagissent avec la technologie.
             </p>
             
             <p>
-              At ORYZA, we go beyond the ordinary, crafting cloud-driven products and tailoring bespoke solutions to meet the nuanced needs of our clients. With a team of top-tier researchers, engineers, and consultants, we are on a mission to propel the digital media industry into the era of perceptual computing.
+              Chez ORYZA, nous allons au-delà de l'ordinaire, en créant des produits basés sur le cloud et en adaptant des solutions sur mesure pour répondre aux besoins nuancés de nos clients. Avec une équipe de chercheurs, d'ingénieurs et de consultants de premier plan, nous sommes en mission pour propulser l'industrie des médias numériques dans l'ère de l'informatique perceptive.
             </p>
           </div>
 
           <button class="btn-holographic mt-8">
-            Explore
+            Explorer
           </button>
         </div>
       </div>

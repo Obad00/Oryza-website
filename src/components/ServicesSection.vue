@@ -33,8 +33,8 @@ import { h } from 'vue'
 
 const services = [
   {
-    title: 'Semantic Multi-Media Processing',
-    description: 'Advanced AI-powered media analysis and content understanding for next-generation applications.',
+    title: 'Traitement Sémantique Multimédia',
+    description: 'Analyse avancée des médias et compréhension du contenu alimentée par l\'IA pour les applications de nouvelle génération.',
     gradient: 'from-amber-primary to-orange-accent',
     icon: () => h('svg', { fill: 'none', stroke: 'currentColor', 'stroke-width': 2, viewBox: '0 0 24 24' }, [
       h('rect', { x: 2, y: 3, width: 20, height: 14, rx: 2 }),
@@ -42,24 +42,24 @@ const services = [
     ])
   },
   {
-    title: 'Content Detection',
-    description: 'Intelligent content moderation and detection systems powered by cutting-edge machine learning.',
+    title: 'Détection de Contenu',
+    description: 'Systèmes intelligents de modération et de détection de contenu alimentés par l\'apprentissage automatique de pointe.',
     gradient: 'from-orange-accent to-amber-dark',
     icon: () => h('svg', { fill: 'none', stroke: 'currentColor', 'stroke-width': 2, viewBox: '0 0 24 24' }, [
       h('path', { d: 'M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z' })
     ])
   },
   {
-    title: 'System Integration',
-    description: 'Seamless integration solutions connecting your digital ecosystem with enterprise-grade reliability.',
+    title: 'Intégration Système',
+    description: 'Solutions d\'intégration transparente reliant votre écosystème numérique avec une fiabilité de niveau entreprise.',
     gradient: 'from-amber-dark to-amber-light',
     icon: () => h('svg', { fill: 'none', stroke: 'currentColor', 'stroke-width': 2, viewBox: '0 0 24 24' }, [
       h('path', { d: 'M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5' })
     ])
   },
   {
-    title: 'Consultancy Services',
-    description: 'Strategic digital transformation guidance from industry experts to accelerate your innovation.',
+    title: 'Services de Conseil',
+    description: 'Conseil stratégique en transformation numérique d\'experts de l\'industrie pour accélérer votre innovation.',
     gradient: 'from-amber-light to-amber-primary',
     icon: () => h('svg', { fill: 'none', stroke: 'currentColor', 'stroke-width': 2, viewBox: '0 0 24 24' }, [
       h('path', { d: 'M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z' })

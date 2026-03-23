@@ -11,16 +11,16 @@
             <span class="text-2xl font-bold font-space holographic-text">ORYZA</span>
           </div>
           <p class="text-gray-400 text-sm">
-            Transforming the digital landscape through innovation and excellence.
+            Transformer le paysage numérique grâce à l'innovation et l'excellence.
           </p>
         </div>
 
         <!-- Products -->
         <div>
-          <h3 class="font-bold text-lg mb-4">Products</h3>
+          <h3 class="font-bold text-lg mb-4">Produits</h3>
           <ul class="space-y-2 text-gray-400 text-sm">
             <li><a href="#" class="hover:text-amber-primary transition-colors">KART</a></li>
-            <li><a href="#" class="hover:text-amber-primary transition-colors">ORYZA AI</a></li>
+            <li><a href="#" class="hover:text-amber-primary transition-colors">ORYZA IA</a></li>
             <li><a href="#" class="hover:text-amber-primary transition-colors">ORYZA Cloud</a></li>
             <li><a href="#" class="hover:text-amber-primary transition-colors">ORYZA Analytics</a></li>
           </ul>
@@ -28,18 +28,18 @@
 
         <!-- Company -->
         <div>
-          <h3 class="font-bold text-lg mb-4">Company</h3>
+          <h3 class="font-bold text-lg mb-4">Entreprise</h3>
           <ul class="space-y-2 text-gray-400 text-sm">
-            <li><a href="#about" class="hover:text-amber-primary transition-colors">About Us</a></li>
+            <li><a href="#about" class="hover:text-amber-primary transition-colors">À Propos</a></li>
             <li><a href="#services" class="hover:text-amber-primary transition-colors">Services</a></li>
-            <li><a href="#" class="hover:text-amber-primary transition-colors">Careers</a></li>
+            <li><a href="#" class="hover:text-amber-primary transition-colors">Carrières</a></li>
             <li><a href="#contact" class="hover:text-amber-primary transition-colors">Contact</a></li>
           </ul>
         </div>
 
         <!-- Connect -->
         <div>
-          <h3 class="font-bold text-lg mb-4">Connect</h3>
+          <h3 class="font-bold text-lg mb-4">Se Connecter</h3>
           <div class="flex gap-3">
             <a href="#" class="w-10 h-10 bg-white/5 hover:bg-amber-primary/20 border border-amber-primary/30 rounded-lg flex items-center justify-center transition-all hover:border-amber-primary">
               <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -64,11 +64,11 @@
       <!-- Bottom -->
       <div class="pt-8 border-t border-amber-primary/20 flex flex-col md:flex-row justify-between items-center gap-4">
         <p class="text-gray-400 text-sm">
-          © 2026 ORYZA. All rights reserved.
+          © 2026 ORYZA. Tous droits réservés.
         </p>
         <div class="flex gap-6 text-sm text-gray-400">
-          <a href="#" class="hover:text-amber-primary transition-colors">Privacy Policy</a>
-          <a href="#" class="hover:text-amber-primary transition-colors">Terms of Service</a>
+          <a href="#" class="hover:text-amber-primary transition-colors">Politique de Confidentialité</a>
+          <a href="#" class="hover:text-amber-primary transition-colors">Conditions d'Utilisation</a>
           <a href="#" class="hover:text-amber-primary transition-colors">Cookies</a>
         </div>
       </div>

@@ -11,15 +11,15 @@
       <!-- Left Content -->
       <div class="fade-in-up">
         <h1 class="text-5xl md:text-7xl font-bold font-space mb-6 leading-tight">
-          Enter the World of<br>
-          <span class="holographic-text">Infinite Innovation</span><br>
-          with ORYZA
+          Entrez dans le Monde de<br>
+          <span class="holographic-text">l'Innovation Infinie</span><br>
+          avec ORYZA
         </h1>
         <p class="text-gray-300 text-lg mb-8 max-w-xl">
-          Transforming Perceptions, Redefining Digital Excellence
+          Transformer les Perceptions, Redéfinir l'Excellence Numérique
         </p>
         <button class="btn-holographic">
-          Explore
+          Explorer
         </button>
       </div>
 
@@ -71,17 +71,17 @@
 
           <!-- Floating UI elements around the device -->
           <div class="absolute -right-8 top-1/4 card-3d p-4 fade-in delay-500" style="width: 100px; animation-delay: 0.8s;">
-            <div class="text-amber-primary text-xs mb-1">Active</div>
+            <div class="text-amber-primary text-xs mb-1">Actif</div>
             <div class="text-2xl font-bold">2.4K</div>
           </div>
 
           <div class="absolute -left-8 top-1/2 card-3d p-4 fade-in delay-600" style="width: 100px; animation-delay: 1s;">
-            <div class="text-orange-accent text-xs mb-1">Users</div>
+            <div class="text-orange-accent text-xs mb-1">Utilisateurs</div>
             <div class="text-2xl font-bold">12K</div>
           </div>
 
           <div class="absolute -right-12 bottom-1/4 card-3d p-4 fade-in delay-700" style="width: 100px; animation-delay: 1.2s;">
-            <div class="text-amber-light text-xs mb-1">Growth</div>
+            <div class="text-amber-light text-xs mb-1">Croissance</div>
             <div class="text-2xl font-bold">+156%</div>
           </div>
         </div>

@@ -10,10 +10,10 @@
         </div>
 
         <div class="hidden md:flex items-center gap-8">
-          <a href="#home" class="text-gray-300 hover:text-amber-primary transition-colors">Home</a>
-          <a href="#about" class="text-gray-300 hover:text-amber-primary transition-colors">About Us</a>
+          <a href="#home" class="text-gray-300 hover:text-amber-primary transition-colors">Accueil</a>
+          <a href="#about" class="text-gray-300 hover:text-amber-primary transition-colors">À Propos</a>
           <a href="#services" class="text-gray-300 hover:text-amber-primary transition-colors">Services</a>
-          <a href="#products" class="text-gray-300 hover:text-amber-primary transition-colors">Products</a>
+          <a href="#products" class="text-gray-300 hover:text-amber-primary transition-colors">Produits</a>
         </div>
 
         <button class="btn-holographic">
