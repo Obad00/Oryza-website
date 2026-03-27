@@ -16,9 +16,9 @@
           <a href="#products" class="text-gray-300 hover:text-amber-primary transition-colors">Produits</a>
         </div>
 
-        <button class="btn-holographic">
+        <a href="#contact" class="btn-holographic">
           Contact
-        </button>
+        </a>
       </div>
     </div>
   </nav>

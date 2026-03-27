@@ -69,9 +69,9 @@
             </p>
           </div>
 
-          <button class="btn-holographic mt-8">
+          <!-- <button class="btn-holographic mt-8">
             Explorer
-          </button>
+          </button> -->
         </div>
       </div>
     </div>

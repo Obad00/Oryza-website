@@ -19,7 +19,7 @@
         <div>
           <h3 class="font-bold text-lg mb-4">Produits</h3>
           <ul class="space-y-2 text-gray-400 text-sm">
-            <li><a href="#" class="hover:text-amber-primary transition-colors">KART</a></li>
+            <li><a href="https://kart.business" target="_blank" rel="noopener noreferrer" class="hover:text-amber-primary transition-colors">KART</a></li>
             <li><a href="#" class="hover:text-amber-primary transition-colors">ORYZA IA</a></li>
             <li><a href="#" class="hover:text-amber-primary transition-colors">ORYZA Cloud</a></li>
             <li><a href="#" class="hover:text-amber-primary transition-colors">ORYZA Analytics</a></li>

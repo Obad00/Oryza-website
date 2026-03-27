@@ -7,7 +7,7 @@
     <div class="floating-orb" style="width: 300px; height: 300px; top: 10%; left: 70%; animation-delay: 0s;"></div>
     <div class="floating-orb" style="width: 200px; height: 200px; top: 60%; left: 10%; animation-delay: 2s;"></div>
 
-    <div class="relative z-10 max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+    <div class="relative z-10 max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-start pt-20">
       <!-- Left Content -->
       <div class="fade-in-up">
         <h1 class="text-5xl md:text-7xl font-bold font-space mb-6 leading-tight">
@@ -18,16 +18,16 @@
         <p class="text-gray-300 text-lg mb-8 max-w-xl">
           Transformer les Perceptions, Redéfinir l'Excellence Numérique
         </p>
-        <button class="btn-holographic">
+        <a href="#about" class="btn-holographic">
           Explorer
-        </button>
+        </a>
       </div>
 
       <!-- Right - 3D Holographic Device -->
-      <div class="relative fade-in-up delay-300">
+      <div class="relative fade-in-up delay-300" style="margin-top: -40px;">
         <div class="relative" style="perspective: 1000px;">
           <!-- Main device frame -->
-          <div class="phone-frame-holographic mx-auto" style="max-width: 400px; transform-style: preserve-3d;">
+          <div class="phone-frame-holographic mx-auto" style="max-width: 280px; transform-style: preserve-3d;">
             <div class="bg-gradient-to-b from-dark-blue to-deep-teal rounded-3xl overflow-hidden" style="aspect-ratio: 9/19;">
               <!-- Screen content -->
               <div class="p-6 h-full flex flex-col">
@@ -72,17 +72,17 @@
           <!-- Floating UI elements around the device -->
           <div class="absolute -right-8 top-1/4 card-3d p-4 fade-in delay-500" style="width: 100px; animation-delay: 0.8s;">
             <div class="text-amber-primary text-xs mb-1">Actif</div>
-            <div class="text-2xl font-bold">2.4K</div>
+            <div class="text-2xl font-bold">1.4K</div>
           </div>
 
           <div class="absolute -left-8 top-1/2 card-3d p-4 fade-in delay-600" style="width: 100px; animation-delay: 1s;">
             <div class="text-orange-accent text-xs mb-1">Utilisateurs</div>
-            <div class="text-2xl font-bold">12K</div>
+            <div class="text-2xl font-bold">2K</div>
           </div>
 
           <div class="absolute -right-12 bottom-1/4 card-3d p-4 fade-in delay-700" style="width: 100px; animation-delay: 1.2s;">
             <div class="text-amber-light text-xs mb-1">Croissance</div>
-            <div class="text-2xl font-bold">+156%</div>
+            <div class="text-2xl font-bold">+100%</div>
           </div>
         </div>
 

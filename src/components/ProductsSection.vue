@@ -35,12 +35,12 @@
               </span>
             </div>
             <div class="flex gap-4">
-              <button class="btn-holographic">
+              <a href="https://kart.business" target="_blank" rel="noopener noreferrer" class="btn-holographic">
                 Visiter KART
-              </button>
-              <button class="btn-outline">
+              </a>
+              <!-- <button class="btn-outline">
                 En Savoir Plus
-              </button>
+              </button> -->
             </div>
           </div>
 
@@ -61,9 +61,9 @@
                         JD
                       </div>
                       <div class="text-center">
-                        <div class="font-bold text-lg mb-1">John Doe</div>
+                        <div class="font-bold text-lg mb-1">Adama Dabo</div>
                         <div class="text-sm text-gray-400">Product Designer</div>
-                        <div class="text-xs text-gray-500 mt-1">@ TechCorp</div>
+                        <div class="text-xs text-gray-500 mt-1">@ Oryza</div>
                       </div>
                       
                       <!-- QR Code placeholder -->
@@ -87,12 +87,12 @@
             <!-- Floating stats -->
             <div class="absolute -right-8 card-3d p-4" style="width: 120px;">
               <div class="text-amber-primary text-xs mb-1">Cartes Totales</div>
-              <div class="text-2xl font-bold">34.5K</div>
+              <div class="text-2xl font-bold">5K</div>
             </div>
             
             <div class="absolute -left-8 bottom-1/3 card-3d p-4" style="width: 120px;">
               <div class="text-orange-accent text-xs mb-1">Utilisateurs Actifs</div>
-              <div class="text-2xl font-bold">12.8K</div>
+              <div class="text-2xl font-bold">2K</div>
             </div>
           </div>
         </div>
